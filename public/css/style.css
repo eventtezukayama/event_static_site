@@ -5,7 +5,7 @@
 .top-section { 
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/top.png);
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fd36sl%2Fstatus%2F1000704758062055426&psig=AOvVaw2e53j16K9WIGWRo18IxLNb&ust=1678842955186000&source=images&cd=vfe&ved=2ahUKEwiUw4vBn9r9AhUClFYBHYGAD_oQr4kDegUIARDPAQ);
     background-size: cover;
 }
 
@@ -23,8 +23,10 @@
     font-size: 4em;
     font-weight: bold;
     font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-    color: white;
+    color: rgba(110, 16, 120, 0.689);
     text-align: center;
+    transform:translateX(100vw);
+    transition: 12.0s;
 }
 
 .content-section { 
