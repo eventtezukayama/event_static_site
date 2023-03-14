@@ -5,7 +5,7 @@
 .top-section { 
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/top.png);
+    background-image: url(https://kodomo.benesse.ne.jp/open/hop/playdigitalwork/resources/images/sales/top_shima@2x.png);
     background-size: cover;
 }
 
@@ -23,8 +23,10 @@
     font-size: 4em;
     font-weight: bold;
     font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-    color: white;
+    color: rgb(193, 246, 105);
     text-align: center;
+    transform: translateX(100vw);
+    transition: 1000ms;
 }
 
 .content-section { 
