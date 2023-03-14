@@ -5,7 +5,7 @@
 .top-section { 
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/top.png);
+    background-image: url(https://media.contentapi.ea.com/content/dam/apex-legends/common/articles/revelry-patch-notes/apex-legends-revelry-patch-notes-featured-image.jpg.adapt.crop16x9.431p.jpg);
     background-size: cover;
 }
 
@@ -23,8 +23,10 @@
     font-size: 4em;
     font-weight: bold;
     font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-    color: white;
+    color: rgb(107, 200, 217);
     text-align: center;
+    transform: translateX(100vw);
+transition: 1.0s;
 }
 
 .content-section { 
@@ -33,7 +35,7 @@
 
 .content-section .container { 
     padding: 1rem;
-}
+
 
 .my-footer{
     height: 20vh;
