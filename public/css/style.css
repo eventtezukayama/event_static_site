@@ -5,7 +5,7 @@
 .top-section { 
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/top.png);
+    background-image: url(https://img1.kakaku.k-img.com/images/productimage/fullscale/J0000013570.jpg);
     background-size: cover;
 }
 
@@ -23,8 +23,10 @@
     font-size: 4em;
     font-weight: bold;
     font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-    color: white;
+    color: rgb(34, 16, 228);
     text-align: center;
+    transform: translateX(100vw);
+    transition: 3s;
 }
 
 .content-section { 
