@@ -5,7 +5,7 @@
 .top-section { 
     height: 100vh;
     width: 100vw;
-    background-image: url(../images/top.png);
+    background-image: url(https://static-spur.hpplus.jp/upload/image/manager/240/IpISdpE-1200.jpg);
     background-size: cover;
 }
 
@@ -23,8 +23,10 @@
     font-size: 4em;
     font-weight: bold;
     font-family: "游明朝体", "Yu Mincho", YuMincho, serif;
-    color: white;
+    color: rgb(151, 155, 30);
     text-align: center;
+    transform: translateX(100vw);
+    transition: 0.5s;
 }
 
 .content-section { 
